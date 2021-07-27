@@ -8,4 +8,4 @@ def index(request):
 def about(request):
     your_name={'your_name':'Jiajun'}
     #return HttpResponse("Rango says here is the about page.<a href='/rango/'>Index</a> .")
-    return render(request,'rango/about.html','your_name')
+    return render(request,'rango/about.html',your_name)
